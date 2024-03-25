@@ -12,7 +12,7 @@ const Hero = () => {
         
         <div className="grid grid-cols-2">
           <div className="absolute left-28 right-0 top-0 bottom-28 flex justify-center items-center m-1 p-2 bg-transparent">
-          <Image src={homeShape} alt="home-shape" height={145} width={145}/>
+          <Image src={homeShape} alt="home-shape" height={145} width={115}/>
         </div>
           <div className="bg-transparent">
             <h1 className="text-ub-xl font-semibold mb-2">Discover Your Dream Property With Estatein </h1>

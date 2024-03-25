@@ -91,3 +91,10 @@ export const NAV_LINKS = [
     {link: "/", label: "Contact Form"},
     {link: "/", label: "Our Offices"}
   ]
+
+   export const SOCIALS = [
+    {src: "/Facebook.svg", label: "facebook"},
+    {src: "/Linkedin.svg", label: "linkedin"},
+    {src: "/Twitter.svg", label: "twitter"},
+    {src: "/Youtube.svg", label: "youtube"}
+  ]

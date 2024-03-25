@@ -2,7 +2,7 @@ import Logo from '@/public/logo/Logodesktop.svg'
 import Image from 'next/image'
 import Mail from '@/public/mail.svg'
 import Message from '@/public/message.svg'
-import { FOOTERS_ABOUT, FOOTERS_HOME, FOOTERS_PROPERTY,FOOTERS_SERVICE,FOOTERS_CONTACT_US } from '@/constance/constance'
+import { FOOTERS_ABOUT, FOOTERS_HOME, FOOTERS_PROPERTY,FOOTERS_SERVICE,FOOTERS_CONTACT_US,SOCIALS } from '@/constance/constance'
 import Link from 'next/link'
 
 
@@ -78,6 +78,21 @@ const Footer = () => {
 
 
             </div>
+
+                <div className="flex justify-between items-center gap-10 py-8 bg-grey-8 p-12 rounded-md">
+                        <div className="flex flex-row items-center gap-10">
+                            <h3>&copy; {new Date().getFullYear()}</h3>
+                            <h3>All Rights Reserved</h3>
+                            <p>Terms & Conditions</p>
+                        </div>
+                        <div className="flex flex-row items-center gap-6">
+                            {SOCIALS.map((social) => (
+                            <div key={social.label}>
+                                <Image src={social.src} alt={social.label} width={30} height={30} />
+                            </div>
+                            ))}
+                        </div>
+                </div>
 
             
         </div>

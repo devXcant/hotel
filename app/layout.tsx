@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-      <body className="mb-6">
+      <body className="mb-6 scroll-smooth">
         <Navbar />
         
            {children}

@@ -9,7 +9,7 @@ import Sun from '@/public/home/IconContainer4.svg'
 const Values = () => {
   return (
     <>
-        <div className='grid grid-cols-4 gap-8 mx-4 mb-4'>
+        <div className='max-container padding-container grid grid-cols-4 gap-8 mx-4 mb-4'>
             <div className="bg-grey-8 mt-5 rounded-lg p-2">
                 <div className="flex justify-end items-center">
                     <Image src={subContainerArrow} alt='sub-container-arrow'/>

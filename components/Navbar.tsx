@@ -7,7 +7,7 @@ import { NAV_LINKS } from "@/constance/constance"
 const Navbar = () => {
   return (
     <>
-      <div className="nav-div bg-grey-8 mb-12">
+      <div className="max-container padding-container bg-grey-8 mb-12">
         <div className="nav-pattern flex justify-center text-ub-base p-3">
           <p>Discover your dream home with Estatein <Link href='www.google.com' className="underline p-2">Learn More</Link></p>
         </div>
