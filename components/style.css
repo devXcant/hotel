@@ -13,3 +13,16 @@
        
 }
 
+.cta-img1{
+    background: url('/home/ctaAbstract1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: fill;
+}
+
+.cta-img2 {
+    background: url('/home/ctaAbstract2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fill;
+}

@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Button from "./Button";
 import homeShape from '@/public/home/SubContainer1.svg';
-import Values from "./Values";
-import Features from "./Features";
+
 
 
 
@@ -12,8 +11,8 @@ const Hero = () => {
       <div className="max-container padding-container pt-3 mt-10 p-10 relative">
         
         <div className="grid grid-cols-2">
-          <div className="absolute flex justify-center items-center m-1 p-2" height={5} width={5}>
-          <Image src={homeShape} alt="home-shape"/>
+          <div className="absolute left-28 right-0 top-0 bottom-28 flex justify-center items-center m-1 p-2 bg-transparent">
+          <Image src={homeShape} alt="home-shape" height={145} width={145}/>
         </div>
           <div className="bg-transparent">
             <h1 className="text-ub-xl font-semibold mb-2">Discover Your Dream Property With Estatein </h1>
@@ -67,8 +66,7 @@ const Hero = () => {
 
         </div>
       </div>
-          <Values />
-          <Features />
+         
 
           
     </>

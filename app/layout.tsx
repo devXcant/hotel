@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Values from "@/components/Values";
+import Cta from "@/components/Cta";
+import Footer from "@/components/Footer";
 
 
 
@@ -18,10 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-      <body className="">
+      <body className="mb-6">
         <Navbar />
-        {/* <Values />    */}
+        
            {children}
+           <Cta />
+           <Footer />
       </body>
         
     </html>
