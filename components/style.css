@@ -1,0 +1,15 @@
+.nav-pattern{
+    background: url('/abstract/AbstractDesign1.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.hero-col-img{
+    background: url('/home/Image.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+       
+}
+

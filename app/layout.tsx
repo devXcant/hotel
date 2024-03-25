@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Values from "@/components/Values";
 
 
 
@@ -17,8 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-      <body className="max-container padding-container">
+      <body className="">
         <Navbar />
+        {/* <Values />    */}
            {children}
       </body>
         

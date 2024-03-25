@@ -8,7 +8,10 @@
 
 body{
   font-family: "Urbanist", sans-serif;
-} 
+  background: black;
+  color: white;
+  /* overflow-y: auto; */
+}
 
 @layer utilities{
   .max-container {
