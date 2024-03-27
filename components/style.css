@@ -9,7 +9,7 @@
     background: url('/home/Image.svg');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
        
 }
 
