@@ -3,6 +3,7 @@ import "./style.css"
 import Image from "next/image"
 import Logo from '@/public/logo/Logodesktop.svg'
 import { NAV_LINKS } from "@/constance/constance"
+import Contact from "./Contact"
 
 const Navbar = () => {
   return (
@@ -27,7 +28,7 @@ const Navbar = () => {
           </div>
 
           <div>
-              <Link href='/' className="text-ub-base text-grey-30 flex justify-center items-center cursor-pointer transition-all hover:text-grey-60 hover:font-bold">
+              <Link href='' className="text-ub-base text-grey-30 flex justify-center items-center cursor-pointer transition-all hover:text-grey-60 hover:font-bold">
                   Contact Us
               </Link>
           </div>

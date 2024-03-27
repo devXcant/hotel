@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Values from "@/components/Values";
 import Cta from "@/components/Cta";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 
 
@@ -26,6 +27,7 @@ export default function RootLayout({
            {children}
            <Cta />
            <Footer />
+           
       </body>
         
     </html>
