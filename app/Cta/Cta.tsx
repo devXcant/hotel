@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Button from "./Button"
+import Button from "../../components/Button"
 import bg1 from '@/public/home/ctaAbstract1.png'
 import bg2 from '@/public/home/ctaAbstract2.png'
 

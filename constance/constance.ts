@@ -1,10 +1,10 @@
 
 export const NAV_LINKS = [
     { href: '/', key: 'home', label: 'Home' },
-    { href: '/', key: 'how_hilink_work', label: 'About Us' },
-    { href: '/', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Properties ' },
-    // { href: '/', key: 'contact_us', label: 'Contact Us' },
+    // { href: '/', key: 'how_hilink_work', label: 'About Us' },
+    { href: '/Details', key: 'properties detail', label: 'Properties Detail' },
+    { href: '/Properties', key: 'pricing ', label: 'Properties ' },
+    // { href: '/Contacts', key: 'contact_us', label: 'Contact Us' },
   ];
 
   export const PROPERTY = [
@@ -97,4 +97,29 @@ export const NAV_LINKS = [
     {src: "/Linkedin.svg", label: "linkedin"},
     {src: "/Twitter.svg", label: "twitter"},
     {src: "/Youtube.svg", label: "youtube"}
+  ]
+
+  export const LOCATION = [
+    {img1:'/email_svg.svg',
+    img2:'/phone_svg.svg',
+    img3:'/location_svg.svg',
+    label:'Main Headquarters',
+    address: '123 Estatein Plaza, City Center, Metropolis',
+    text:"Our main headquarters serve as the heart of Estatein. Located in the bustling city center, this is where our core team of experts operates, driving the excellence and innovation that define us.",
+    icon:'/Profile2.png',
+    email:'info@estatein.com',
+    number: '+1 (123) 456-7890',
+    landmark:'Metropolis',
+  },
+  {img1:'/email_svg.svg',
+    img2:'/phone_svg.svg',
+    img3:'/location_svg.svg',
+    label:'Regional Offices',
+    address: '456 Urban Avenue, Downtown District, Metropolis',
+    text:"Estatein's presence extends to multiple regions, each with its own dynamic real estate landscape. Discover our regional offices, staffed by local experts who understand the nuances of their respective markets.",
+    icon:'/Profile2.png',
+    email:'info@estatein.com',
+    number: '+1 (123) 456-7890',
+    landmark:'Metropolis',
+  }
   ]

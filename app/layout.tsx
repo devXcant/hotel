@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Values from "@/components/Values";
-import Cta from "@/components/Cta";
-import Footer from "@/components/Footer";
+import Navbar from "@/app/Navbar/Navbar";
+import Values from "@/app/Values/Values";
+import Cta from "@/app/Cta/Cta";
+import Footer from "@/app/Footer/Footer";
 import Contact from "@/components/Contact";
 
 
@@ -22,8 +22,8 @@ export default function RootLayout({
     <html lang="en">
 
       <body className="mb-6 scroll-smooth">
-        <Navbar />
-        
+          
+           <Navbar />       
            {children}
            <Cta />
            <Footer />
