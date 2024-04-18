@@ -6,6 +6,7 @@ import Rightarrow from '@/public/home/rightarrow.svg';
 import { PROPERTY, TESTIMONIAL,QUESTIONS } from "@/constance/constance";
 
 const Faq = () => {
+  
   return (
     <div className="max-container padding-container mt-12 py-12">
       <div>

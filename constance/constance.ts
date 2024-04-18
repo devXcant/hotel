@@ -53,7 +53,7 @@ export const NAV_LINKS = [
   { question: 'What documents do I need to sell my property through Estatein?',
       text: 'Find out about the necessary documentation for listing your property with us.'
   },
-  { question: 'How can I contact an Estatein agent? ',
+  { question: 'How can I contact an Estatein agent?',
       text: 'Discover the different ways you can get in touch with our experienced agents.'
   }
   ]
