@@ -14,37 +14,37 @@ const page = () => {
           Find Your Dream Property
         </h2>
         <p>Welcome to Estatein, where your dream property awaits in every corner of our beautiful world. Explore our curated selection of properties, each offering a unique story and a chance to redefine your life. With categories to suit every dreamer, your journey </p>
-        <fieldset className="bg-red-800">
-          <legend className="border border-grey-8">
+        <fieldset className="mt-10">
+          <legend className="border border-grey-8 w-full rounded-lg">
             <div className="flex flex-row justify-between gap-3 m-3 items-center">
-              <input type="text" placeholder="Search For A Property" />
+              <input type="text" placeholder="Search For A Property" className="p-3 rounded-lg bg-inherit" />
               <Button type='submit' title='Find Property' variant="bg-purple-60 hover:bg-purple-20"/>
             </div>
           </legend>
           
           <div>
             <div className='grid grid-cols-5 gap-5 my-4'>
-                            <div className='flex flex-row justify-brtween items-center mx-2'>
-                              <Image src={Locator} width={20} height={20} alt="" />
-                              <select name="inquiryType" id="inquiryType" className='p-3 bg-grey-8 rounded-md'>
+                            <div className='flex flex-row justify-between items-center mx-2 border border-grey-8 rounded-lg p-2'>
+                              <Image src={Locator} width={20} height={20} alt=""/>
+                              <select name="inquiryType" id="inquiryType" className='p-3 bg-black rounded-md'>
                                 <option value="general">Location</option>
                                 <option value="technical">Technical Support</option>
                                 <option value="billing">Billing Inquiry</option>
                               </select>
                               </div>
 
-                            <div className='flex flex-row justify-brtween items-center mx-2'>
-                              <Image src={Locator} width={20} height={20} alt="" />
-                              <select name="inquiryType" id="inquiryType" className='p-3 bg-grey-8 rounded-md'>
+                            <div className='flex flex-row justify-between items-center mx-2 border border-grey-8 rounded-lg p-2'>
+                              <Image src={Locator} width={20} height={20} alt=""/>
+                              <select name="inquiryType" id="inquiryType" className='p-3 bg-black rounded-md'>
                                 <option value="general">Property Type</option>
                                 <option value="technical">Technical Support</option>
                                 <option value="billing">Billing Inquiry</option>
                               </select>
                             </div>
 
-                            <div className='flex flex-row justify-brtween items-center mx-2'>
-                              <Image src={Locator} width={20} height={20} alt="" />
-                              <select name="hearAbout" id="hearAbout" className='p-3 bg-grey-8 rounded-md'>
+                            <div className='flex flex-row justify-between items-center mx-2 border border-grey-8 rounded-lg p-2'>
+                              <Image src={Locator} width={20} height={20} alt=""/>
+                              <select name="hearAbout" id="hearAbout" className='p-3 bg-black rounded-md'>
                                 <option value="general">
                                   Pricing range
                                 </option>
@@ -53,18 +53,18 @@ const page = () => {
                               </select>
                             </div>
 
-                            <div className='flex flex-row justify-brtween items-center mx-2'>
-                              <Image src={Locator} width={20} height={20} alt="" />
-                              <select name="inquiryType" id="inquiryType" className='p-3 bg-grey-8 rounded-md'>
+                            <div className='flex flex-row justify-between items-center mx-2 border border-grey-8 rounded-lg p-2'>
+                              <Image src={Locator} width={20} height={20} alt=""/>
+                              <select name="inquiryType" id="inquiryType" className='bg-black rounded-md'>
                                 <option value="general">Property Size</option>
                                 <option value="technical">Technical Support</option>
                                 <option value="billing">Billing Inquiry</option>
                               </select>
                               </div>
 
-                              <div className='flex flex-row justify-brtween items-center mx-2'>
-                              <Image src={Locator} width={20} height={20} alt="" />
-                              <select name="inquiryType" id="inquiryType" className='p-3 bg-grey-8 rounded-md'>
+                              <div className='flex flex-row justify-between items-center mx-2 border border-grey-8 rounded-lg p-2'>
+                              <Image src={Locator} width={20} height={20} alt=""/>
+                              <select name="inquiryType" id="inquiryType" className='p-3 bg-black rounded-md'>
                                 <option value="general">Build Year</option>
                                 <option value="technical">Technical Support</option>
                                 <option value="billing">Billing Inquiry</option>
