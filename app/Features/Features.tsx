@@ -6,7 +6,7 @@ import Rightarrow from '@/public/home/rightarrow.svg'
 import  {PROPERTY} from "@/constance/constance"
 
 
-const Features = () => {
+const Features = ({header,headerText}) => {
   return (
     <>
         <div className="max-container padding-container mt-12 py-12">
@@ -14,9 +14,9 @@ const Features = () => {
                 <Image src={Stars} alt="3Stars"/>
             </div>
             <div className=" mb-12">
-                <h1 className="text-ub-xl">Featured Properties</h1>
+                <h1 className="text-ub-xl">{header}</h1>
                 <div className="flex flex-row justify-between items-center gap-12">
-                    <p className="text-wrap text-ub-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sed amet sunt nobis. Officiis, in? Modi doloremque <br /> voluptatem architecto, fugiat sed nulla itaque velit nam perspiciatis deleniti soluta quos expedita!</p>
+                    <p className="text-wrap text-ub-xs">{headerText}</p>
 
                     <Button 
                         type="submit"
@@ -72,6 +72,11 @@ const Features = () => {
         </div>
     </>
   )
+}
+
+interface MyComponentProps {
+  title?: string; // Make title optional
+  description?: string; // Make description optional
 }
 
 export default Features
