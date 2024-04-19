@@ -6,7 +6,7 @@ import Rightarrow from '@/public/home/rightarrow.svg'
 import  {PROPERTY} from "@/constance/constance"
 
 
-const Features = ({header,headerText}) => {
+const Features = ({headerHead,headerText}) => {
   return (
     <>
         <div className="max-container padding-container mt-12 py-12">
@@ -14,7 +14,7 @@ const Features = ({header,headerText}) => {
                 <Image src={Stars} alt="3Stars"/>
             </div>
             <div className=" mb-12">
-                <h1 className="text-ub-xl">{header}</h1>
+                <h1 className="text-ub-xl">{headerHead}</h1>
                 <div className="flex flex-row justify-between items-center gap-12">
                     <p className="text-wrap text-ub-xs">{headerText}</p>
 
