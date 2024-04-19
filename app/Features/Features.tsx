@@ -74,9 +74,9 @@ const Features = ({header,headerText}) => {
   )
 }
 
-interface MyComponentProps {
-  title?: string; // Make title optional
-  description?: string; // Make description optional
+Features.defaultProps = {
+  header: 'Featured Properties',
+  headerText: 'Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.'
 }
 
 export default Features
