@@ -19,7 +19,7 @@ const Contact = () => {
                 <div className=" mb-12">
                     <h1 className="text-ub-xl">Get in Touch with Estatein</h1>
                     <div className="flex flex-row justify-between items-center gap-12">
-                        <p className="text-wrap text-ub-xs">Welcome to Estatein's Contact Us page. We're here to assist you with any inquiries, requests, or feedback you may have. Whether you're looking to buy or sell a property, explore investment opportunities, or simply want to connect, we're just a message away. Reach out to us, and let's start a conversation.</p>
+                        <p className="text-wrap text-ub-xs">Welcome to Estateins Contact Us page. We're here to assist you with any inquiries, requests, or feedback you may have. Whether you're looking to buy or sell a property, explore investment opportunities, or simply want to connect, we're just a message away. Reach out to us, and let's start a conversation.</p>
                     </div>
                 </div>
           </div>    

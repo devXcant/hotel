@@ -1,5 +1,5 @@
 import Link from "next/link"
-import "../../components/style.css"
+import "./style.css"
 import Image from "next/image"
 import Logo from '@/public/logo/Logodesktop.svg'
 import { NAV_LINKS } from "@/constance/constance"

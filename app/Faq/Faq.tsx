@@ -32,7 +32,7 @@ const Faq = () => {
               
             </div>
             <div>
-              <h3 className="text-ub-md font- py-6">{quest.question}</h3>
+              <h3 className="text-ub-md py-6">{quest.question}</h3>
               <p className="py-4">{quest.text}</p>
             </div>
             <div className="flex justify-start item-center gap-3 ">
