@@ -77,7 +77,7 @@ const page = () => {
         </fieldset>
 
         <Features 
-          header='Discover a World of Possibilities'
+          headerHead='Discover a World of Possibilities'
           headerText='Our portfolio of properties is as diverse as your dreams. Explore the following categories to find the perfect property that resonates with your vision of home'
         />
 
