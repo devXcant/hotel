@@ -3,7 +3,14 @@ import Stars from '@/public/home/3Stars.svg'
 import Button from '@/components/Button'
 import Faq from '../Faq/Faq'
 
-const page = () => {
+type pageProps={
+        // headerHead: string;
+        // headerText: string;
+        testimonialText: string;
+    }
+const page = ({testimonialText}: PageProps) => {
+  
+
   return (
     <>
         <div className="max-container padding-container mt-12 py-12">
