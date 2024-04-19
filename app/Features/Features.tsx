@@ -5,8 +5,13 @@ import Leftarrow from '@/public/home/leftarrow.svg'
 import Rightarrow from '@/public/home/rightarrow.svg'
 import  {PROPERTY} from "@/constance/constance"
 
+ type FeaturesProps={
+        headerHead: string;
+        headerText: string;
+    }
 
-const Features = ({headerHead,headerText}) => {
+const Features = ({headerHead,headerText}:FeaturesProps) => {
+   
   return (
     <>
         <div className="max-container padding-container mt-12 py-12">
