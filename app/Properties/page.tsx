@@ -3,12 +3,8 @@ import Stars from '@/public/home/3Stars.svg'
 import Button from '@/components/Button'
 import Faq from '../Faq/Faq'
 
-type pageProps={
-        // headerHead: string;
-        // headerText: string;
-        testimonialText: string;
-    }
-const page = ({testimonialText}: pageProps) => {
+
+const page = () => {
   
 
   return (
