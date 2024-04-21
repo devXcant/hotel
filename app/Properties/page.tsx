@@ -8,7 +8,7 @@ type pageProps={
         // headerText: string;
         testimonialText: string;
     }
-const page = ({testimonialText}: PageProps) => {
+const page = ({testimonialText}: pageProps) => {
   
 
   return (
@@ -362,7 +362,7 @@ const page = ({testimonialText}: PageProps) => {
                     </div>
                   </div>
                   </div>    
-                  <Faq testimonialText="find out the documents you need"/>
+                  <Faq/>
 
                 </div>
     </>

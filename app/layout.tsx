@@ -4,7 +4,7 @@ import Navbar from "@/app/Navbar/Navbar";
 import Values from "@/app/Values/Values";
 import Cta from "@/app/Cta/Cta";
 import Footer from "@/app/Footer/Footer";
-import Contact from "@/components/Contact";
+import Contact from "@/app/Contacts/page";
 
 
 

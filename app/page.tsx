@@ -1,5 +1,5 @@
 import Clients from "@/app/Clients/Clients";
-import Contact from "@/app/Contacts/Contact";
+import Contact from "@/app/Contacts/page";
 import Cta from "@/app/Cta/Cta";
 import Faq from "@/app/Faq/Faq";
 import Features from "@/app/Features/Features";
@@ -13,7 +13,8 @@ export default function Home() {
     <>
       <Hero />
       <Values />
-      <Features />
+      <Features headerHead=''
+        headerText=''/>
       <Clients />
       <Faq />
       
