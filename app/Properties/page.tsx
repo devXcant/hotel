@@ -350,7 +350,7 @@ const page = () => {
                           <hr className='border-grey-8 my-3'/>
 
                           
-                          <div className="text-ub-sm"></div>
+                          
                         </div>
 
                         
