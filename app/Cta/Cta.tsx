@@ -13,7 +13,7 @@ const Cta = () => {
                     <Image src={bg2} alt="bg" width={380} height={180} className=" absolute flex justify-start items-start -z-50 left-0 bottom-1"/>
                    
                     <Image src={bg1} alt="bg" width={380} height={180} className=" absolute right-0 bottom-1 -z-50"  />
-                   <div className="flex justify-around items-center">
+                   <div className="flex flex-col lg:justify-around lg:items-center">
                         <div className="w-[80%]">
                             <h2 className="text-ub-xl">Start Your Real Estate Journey Today</h2>
 

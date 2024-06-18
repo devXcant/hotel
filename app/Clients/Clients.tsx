@@ -26,7 +26,7 @@ const Clients = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-5 mt-12">
+      <div className="grid lg:grid-cols-3 gap-5 mt-12">
         {TESTIMONIAL.map((testim, index) => (
           <div key={index} className="flex flex-col gap-2 py-3  px-5   my-3 border border-grey-8 rounded-lg">
             <div className="flex gap-2 ">

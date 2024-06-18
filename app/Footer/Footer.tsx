@@ -10,12 +10,12 @@ const Footer = () => {
   return (
     <>
         <div className="max-container padding-container ">
-            <div className='flex flex-row justify-between items-top'>
+            <div className='flex flex-col lg:flex-row justify-between items-center'>
                 
                 <div>
                     <Image src={Logo} alt='page-logo' />
 
-                    <div className='flex flex-row justify-between items-center gap-24  p-4 my-4 rounded-lg  '>
+                    <div className='flex justify-between items-center gap-4 lg:gap-24  p-4 my-4 rounded-lg  '>
                         <div className='flex justify-start gap-3  items-center '>
                             <Image src={Mail} alt='mail' />
                             <input type="text" placeholder='Enter Your Email' className='bg-inherit rounded-md border border-grey-8 px-3 py-2'/>
@@ -29,7 +29,7 @@ const Footer = () => {
                     
                 </div>
 
-                <div className='grid grid-cols-5'>
+                <div className='grid grid-cols-2 lg:grid-cols-5'>
                     <div className='col-span-1'>
                         <h3 className='text-grey-15 hover:text-grey-60 text-ub-base'>Home</h3>
                         {FOOTERS_HOME.map((home)=> (
@@ -79,7 +79,7 @@ const Footer = () => {
 
             </div>
 
-                <div className="flex justify-between items-center gap-10 py-8 bg-grey-8 p-12 rounded-md">
+                <div className="flex flex-col lg:flex-row justify-around lg:justify-between items-center gap-10 py-8 bg-grey-8 p-12 rounded-md ">
                         <div className="flex flex-row items-center gap-10">
                             <h3>&copy; {new Date().getFullYear()}</h3>
                             <h3>All Rights Reserved</h3>

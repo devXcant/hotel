@@ -8,10 +8,10 @@ import homeShape from '@/public/home/SubContainer1.svg';
 const Hero = () => {
   return (
     <>
-      <div className="max-container padding-container pt-3 mt-10 p-10 relative">
+      <div className="max-container padding-container pt-3 mt-10 p-10 relative bg-red-500">
         
-        <div className="grid grid-cols-2">
-          <div className="absolute left-28 right-0 top-0 bottom-28 flex justify-center items-center m-1 p-2 bg-transparent">
+        <div className="grid md:grid-cols-2">
+          <div className="absolute left-28 top-80 lg:left-28 lg:right-0 lg:top-0 lg:bottom-28 flex justify-center items-center lg:m-1 lg:p-2 bg-transparent  w-[60px] md:w-full">
           <Image src={homeShape} alt="home-shape" height={145} width={115}/>
         </div>
           <div className="bg-transparent">
@@ -31,7 +31,7 @@ const Hero = () => {
             />
             </div>
 
-            <div className="flex justify-start items-center gap-5 pt-20">
+            <div className="flex flex-col md:flex-row md:justify-start items-center gap-5 pt-20">
               <div className=" flex flex-col justify-start items-start gap-2 p-3 px-5 bg-grey-8 rounded-s-md">
                 <p className="flex flex-col justify-start items-start">
                   <span className="text-ub-lg font-bold ">
